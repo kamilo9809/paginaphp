@@ -1,0 +1,124 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+
+
+
+.titulo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 60%;
+    font-style: oblique;
+    background: linear-gradient(#3c86f6, #3f87a6, #90cbe4);
+    border-top-right-radius: 30px ;
+    border-top-left-radius: 30px ;
+    margin-bottom: 0%;
+}
+
+.aggtask{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 60%;
+    padding-top: 20px;
+    background-color: #90cbe4;
+}
+
+.aggtask>input{
+    width: 60%;
+    height: 30px;
+    border-radius: 30px;
+    margin-left: 3%;
+    border: 0px;
+    background-color: #dbecf3;
+}
+
+.aggtask>button{
+    width: 40%;
+    border-radius: 10px;
+    margin-left: 10px;
+    margin-right: 3%;
+    background-color: #739eb1;
+    margin-bottom: 0px;
+}
+
+.subtitulo{
+    display: flex;
+    justify-content: center;
+    font-style: oblique;
+    width: 60%;
+    margin: 0;
+    padding-top: 20px;
+    background-color: #90cbe4;
+}
+
+ul{
+    display: flex;
+    justify-content: center ;
+    flex-direction: column;
+    padding: 0px;
+    margin: 0px;
+    padding-top: 10px;
+    width: 60%;
+    list-style: none;
+    background-color: #90cbe4;
+    border-bottom-left-radius: 20px ;
+    border-bottom-right-radius: 20px ;
+}
+
+ul>li{
+    margin: 0px;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10px;
+    justify-content: space-between;
+    margin: 10px 0px;
+    border: 2px solid rgba(255, 255, 255, 0.288);
+    border-radius: 10px;
+}
+
+.modal{
+    border: none;
+    border-radius: 10px;
+    background-color: #3f87a6;
+}
+
+.modal>form>input{
+    margin: 0;
+    border: none;
+    width: 100%;
+    border-radius: 15px;
+    height: 30px;
+}
+
+.modal>form>button{
+    margin: 0;
+    margin-top: 5px;
+    border: none;
+    background-color: #739eb1;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+.modal>button{
+    margin: 0;
+    margin-top: 5px;
+    border: none;
+    background-color: #739eb1;
+    width: 100%;
+    height: 30px;
+    border-radius: 5px;
+}
+
+button:hover{
+    background-color: #3c86f6;
+}
+.modal>form>button:hover{
+    background-color: #3c86f6;
+}
