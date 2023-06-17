@@ -10,3 +10,5 @@ function connect_db(){
 }
 
 ?>
+
+<!--conecta la base de datos con la pagina php-->

@@ -10,3 +10,5 @@
     };
 
 ?>
+
+<!--verifica que la conexion si se realizo-->

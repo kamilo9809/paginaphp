@@ -6,8 +6,6 @@ body{
 }
 
 
-
-
 .titulo{
     display: flex;
     justify-content: center;
@@ -122,3 +120,5 @@ button:hover{
 .modal>form>button:hover{
     background-color: #3c86f6;
 }
+
+/*para finalizar este es el codigo que utilice para decorar la pagina y que no se vea como una pagina de los años 1600*/
